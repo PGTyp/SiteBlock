@@ -1,0 +1,17 @@
+{
+  "name": "SiteBlock",
+  "short_name": "SiteBlock",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#001F3F",
+  "theme_color": "#001F3F",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/shield.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
