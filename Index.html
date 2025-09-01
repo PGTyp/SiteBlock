@@ -1,0 +1,24 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SiteBlock</title>
+  <link rel="manifest" href="manifest.json" />
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("service-worker.js");
+    }
+  </script>
+  <style>
+    body { font-family: sans-serif; background: #001F3F; color: white; text-align: center; padding: 2rem; }
+    h1 { font-size: 2rem; margin-bottom: 1rem; }
+    p { max-width: 600px; margin: auto; }
+  </style>
+</head>
+<body>
+  <h1>SiteBlock</h1>
+  <p>This is your SiteBlock Progressive Web App.  
+     Add it to your home screen to use it like a native app.</p>
+</body>
+</html>
